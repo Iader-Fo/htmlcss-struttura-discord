@@ -1,0 +1,50 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: aqua;
+    padding: 15px;
+}
+
+.container_flex{
+    max-width: 1200px;
+    display: flex;
+    min-height: 50px;
+    background-color: orange;
+    border: 3px dashed black;
+}
+
+.align-items-center{
+    align-items: center;
+}
+
+.logo{
+    width: 25%;
+    border: 2px dashed black;
+}
+
+.link{
+    display: flex;
+    
+    width: 50%;
+    border: 2px dashed black;
+
+}
+
+ul{
+    width: 50%;
+    display: flex;
+    list-style-type:none;
+}
+
+.login{
+    display: flex;
+    /* justify-content: flex-end; */
+    width: 25%;
+    border: 2px dashed black;
+}
+
+
