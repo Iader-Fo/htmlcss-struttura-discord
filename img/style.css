@@ -1,7 +1,14 @@
 * {
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+.debug {}
+
+.container_center {
+    margin: 0 auto;
+    max-width: 1200px;
 }
 
 header {
@@ -14,7 +21,7 @@ header {
     display: flex;
 }
 
-.principal{
+.principal {
     min-height: 50px;
     background-color: orange;
     border: 3px dashed black;
@@ -33,80 +40,102 @@ header {
     display: flex;
     width: 50%;
     border: 2px dashed black;
+    justify-content: center;
+
 }
 
 ul {
     width: 50%;
     display: flex;
     list-style-type: none;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
 }
 
 .login {
-    /* display: flex;
+    display: flex;
     justify-content: flex-end;
-    align-items: flex-end; */
     width: 25%;
     border: 2px dashed black;
 }
 
-.header_main{
+.header_main {
     background-color: blue;
     /* background-image: url(); */
     display: flex;
     padding: 40px;
-
 }
 
-.container_header_main{
+.container_header_main {
     background-color: rgb(232, 95, 198);
     width: 1000px;
     min-height: 400px;
 }
 
-.blue{
+.blue {
     background-color: rgb(70, 127, 202);
     width: 60%;
     height: 500px;
 }
 
-.pink{
+.pink {
     background-color: rgb(202, 143, 210);
     width: 40%;
     height: 500px;
 }
 
-.section{
+.section {
     padding: 40px 0;
 }
 
-.section_2, .section_4{
+.section_2,
+.section_4 {
     background-color: lightgray;
 }
 
-.section_5{
+.section_5,
+.section_6 {
     background-color: rgba(5, 5, 5, 0.889);
 }
 
-.middle{
+.section_6 {
+    padding-top: 40px;
+}
+
+.middle {
     display: flex;
     flex-direction: row-reverse;
 }
 
-.green{
+.green {
     background-color: green;
     width: 100%;
     height: 800px;
 }
 
-.red{
+.red {
     background-color: rgb(210, 70, 14);
     width: 36%;
     height: 500px;
 }
 
-.azure{
+.azure {
     background-color: rgb(83, 162, 180);
     width: 16%;
     height: 500px;
     border: 2px dashed white;
+}
+
+hr {
+    border: 1px solid white;
+}
+
+.final {
+    min-height: 70px;
+    background-color: rgb(25, 151, 151);
+    border: 3px dashed black;
+    justify-content: space-between;
 }

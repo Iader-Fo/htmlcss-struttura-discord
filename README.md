@@ -1,3 +1,6 @@
 # htmlcss-struttura-discord
 
-Da riguardare: POSIZ. LOGIN
+Da riguardare: 
+
+- POSIZ. LOGIN
+- DEBUG
